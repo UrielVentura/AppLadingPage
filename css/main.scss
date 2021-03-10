@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #007AF3
+}
+
 body{
     background: #F2F2F2;
     margin: 0;
@@ -17,8 +21,12 @@ body{
         font-size: 1.2em;
 
         span{
-            color: #007AF3;
+            color: var(--primary-color);
         }
     }
 
+}
+
+nav{
+    display: none;
 }
